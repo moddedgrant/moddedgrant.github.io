@@ -102,11 +102,13 @@ div .container {
 .Video_Header {
     text-align:center;
     color:#FF6A00;
+    margin:34px 0px 28px 0px;
+    padding:0px;
 }
 
 #center_button {
     text-align:center;
-    margin:10px;
+    margin:30px;
 }
 
 #more_videos {
@@ -114,12 +116,12 @@ div .container {
     background: #444;
     border: solid 2px aliceblue;
     font-size:18px;
-    padding: 4px;
+    padding: 4px 10px 4px 10px;
     margin: 10px;
 }
 
 #more_videos:hover {
-    font-size:20px;
+    font-size:19px;
 }
 
 
