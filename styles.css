@@ -11,7 +11,7 @@ body {
 
 header {
     background:#666;
-    color:coral;
+    color:#FF6A00;
     padding: 10px 0 10px 0;
     column-gap:normal;
     margin:0 0 0 0;
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 a {
-    color:coral;
+    color:#FF6A00;
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ a {
 
 .inconstruct {
     text-align:center;
-    color:coral;
+    color:#FF6A00;
     font-size: 400%;
 }
 
@@ -78,11 +78,24 @@ a {
     font-size: 200%;
 }
 
-div.container {
+div .container {
     text-align: center;
     font-size: 100%;
     width: 100%;
     margin: auto;
     min-width: 560px;
 }
+
+.hover {  /* This is for when the cursor isn't hovering over the button */
+    display:inherit;
+}
+
+.hover:hover {
+    background-color: aliceblue; /* This is when cursor is hovering the button */
+    font-size: 115%;
+}
+
+.current_tab {
+}
+
     
