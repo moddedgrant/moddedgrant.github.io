@@ -50,12 +50,6 @@ a {
     text-decoration: none;
 }
 
-.center {
-    margin: auto;
-    width: 100p%;
-    text-align:center;
-    }
-
 .big {
     font-size:250%;
 }
@@ -83,3 +77,12 @@ a {
     color: azure;
     font-size: 200%;
 }
+
+div.container {
+    text-align: center;
+    font-size: 100%;
+    width: 100%;
+    margin: auto;
+    min-width: 560px;
+}
+    
