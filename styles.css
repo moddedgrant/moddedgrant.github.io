@@ -57,6 +57,7 @@ a {
 .footer, .push {
 	height: 35px; /* .push must be the same height as .footer */
     text-align:center;
+    font-size: 75%;
     
 }
 
@@ -86,16 +87,42 @@ div .container {
     min-width: 560px;
 }
 
-.hover {  /* This is for when the cursor isn't hovering over the button */
+.navhover {  /* This is for when the cursor isn't hovering over the button */
     display:inherit;
 }
 
-.hover:hover {
+.navhover:hover {
     background-color: aliceblue; /* This is when cursor is hovering the button */
     font-size: 115%;
 }
 
 .current_tab {
 }
+
+.Video_Header {
+    text-align:center;
+    color:#FF6A00;
+}
+
+#center_button {
+    text-align:center;
+    margin:10px;
+}
+
+#more_videos {
+    color: aliceblue;
+    background: #444;
+    border: solid 2px aliceblue;
+    font-size:18px;
+    padding: 4px;
+    margin: 10px;
+}
+
+#more_videos:hover {
+    font-size:20px;
+}
+
+
+
 
     
